@@ -113,6 +113,8 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.15.0)
+    modular_routes (0.3.0)
+      rails
     msgpack (1.5.1)
     net-imap (0.2.3)
       digest
@@ -192,6 +194,9 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    view_component (2.55.0)
+      activesupport (>= 5.0.0, < 8.0)
+      method_source (~> 1.0)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -218,6 +223,7 @@ DEPENDENCIES
   debug
   jbuilder
   jsbundling-rails
+  modular_routes
   puma (~> 5.0)
   rails (~> 7.0.2, >= 7.0.2.3)
   selenium-webdriver
@@ -226,6 +232,7 @@ DEPENDENCIES
   stimulus-rails
   turbo-rails
   tzinfo-data
+  view_component
   web-console
   webdrivers
 
