@@ -1,0 +1,10 @@
+<% if visited %>
+  <a class="w-full text-gray-800 flex items-center pl-6 p-2 my-2 border-l-4 border-transparent transition-colors duration-200 justify-start" href="<%= href %>">
+    <%= content %>
+  </a>
+<% else %>
+
+<a class="w-full text-gray-400 flex items-center pl-6 p-2 my-2 transition-colors duration-200 justify-start hover:text-gray-800 border-l-4 border-transparent" href="<%= @href %>">
+  <%= content %>
+</a>
+<% end %>
